@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 3,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "e835de10-53a8-4622-b3d8-98491ed6c238": "{\"id\":\"e835de10-53a8-4622-b3d8-98491ed6c238\",\"host\":\"localhost\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\"],\"protocol\":\"http\",\"created\":1426884287067,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"express-example-app\",\"version\":\"1.0.0\",\"port\":3000},\"processes\":{\"pids\":[{\"parentPid\":30302,\"pid\":30303,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-19T20:02:48.188Z\",\"id\":5,\"serviceInstanceId\":1},{\"parentPid\":30303,\"pid\":31331,\"workerId\":9,\"listeningSockets\":[{\"addressType\":4,\"address\":null,\"port\":3000}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-20T20:38:53.721Z\",\"id\":10,\"serviceInstanceId\":1},{\"parentPid\":30303,\"pid\":31348,\"workerId\":10,\"listeningSockets\":[{\"addressType\":4,\"address\":null,\"port\":3000}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-20T20:38:55.949Z\",\"id\":11,\"serviceInstanceId\":1},{\"parentPid\":30303,\"pid\":31349,\"workerId\":11,\"listeningSockets\":[{\"addressType\":4,\"address\":null,\"port\":3000}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-20T20:38:58.123Z\",\"id\":12,\"serviceInstanceId\":1},{\"parentPid\":30303,\"pid\":31350,\"workerId\":12,\"listeningSockets\":[{\"addressType\":4,\"address\":null,\"port\":3000}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-20T20:39:00.369Z\",\"id\":13,\"serviceInstanceId\":1}]}}"
+    },
+    "LoadBalancer": {}
+  }
+}
