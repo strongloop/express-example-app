@@ -32,8 +32,5 @@
     "jscs": "^1.11.3",
     "request": "^2.53.0",
     "tap": "^0.7.1"
-  },
-  "bundleDependencies": [
-    "express"
-  ]
+  }
 }
