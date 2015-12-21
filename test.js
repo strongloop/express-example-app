@@ -28,15 +28,18 @@ tap.test('test /', function(t) {
   t.plan(2);
   request(url(), function(err, rsp, body) {
     t.ifError(err);
-    t.equal(body, 'Hello World', body);
+    t.similar(body, /Hello, World! Request served from .*:\d+/, body);
   });
 });
 
 tap.test('test /api', function(t) {
-  t.plan(2);
   request({url: url('/api'), json: true}, function(err, rsp, body) {
     t.ifError(err);
-    t.equal(body.message, 'Hello World', body);
+    t.equal(body.message, 'Hello, World!', body);
+    t.equal(body.pid, process.pid);
+    t.similar(body.address, /127.0.0.1/);
+    t.equal(body.port, server.address().port);
+    t.end();
   });
 });
 
