@@ -1,3 +1,11 @@
+2016-04-11, Version 1.0.3
+=========================
+
+ * server: report server address and port (Sam Roberts)
+
+ * Refer to licenses with a link (Sam Roberts)
+
+
 2015-10-01, Version 1.0.2
 =========================
 
