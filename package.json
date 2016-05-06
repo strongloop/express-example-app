@@ -1,6 +1,6 @@
 {
   "name": "express-example-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "express example app for strong-pm",
   "main": "index.js",
   "scripts": {
