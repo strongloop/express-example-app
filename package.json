@@ -4,7 +4,7 @@
   "description": "express example app for strong-pm",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . && jscs .",
+    "pretest": "eslint --ignore-path .gitignore .",
     "test": "tap test.js"
   },
   "repository": {
@@ -27,9 +27,12 @@
   "dependencies": {
     "express": "^4.12.3"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
-    "eslint": "^0.17.1",
-    "jscs": "^1.11.3",
+    "eslint": "^4.4.1",
+    "eslint-config-strongloop": "^2.1.0",
     "request": "^2.53.0",
     "tap": "^0.7.1"
   }
