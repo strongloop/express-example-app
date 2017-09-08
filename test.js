@@ -17,7 +17,7 @@ function url(path) {
     protocol: 'http',
     hostname: 'localhost',
     port: server.address().port,
-    pathname: path
+    pathname: path,
   });
 }
 
